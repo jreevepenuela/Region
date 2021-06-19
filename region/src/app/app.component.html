@@ -1,0 +1,4 @@
+<select>
+    <option>Select</option>
+    <option *ngFor="let regions of region | async">{{ regions.Name }}</option>
+</select>
